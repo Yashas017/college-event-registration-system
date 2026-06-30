@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - College Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>College Events</h2>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="featured">
+
+        <h1>Upcoming Events</h1>
+        <br>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Events..."
+            onkeyup="searchEvents()"
+        >
+
+        <div class="cards">
+
+            <div class="card event-card">
+
+                
+
+                <h3>Tech Fest 2026</h3>
+
+                <p><strong>Date:</strong> 20 July 2026</p>
+                <p><strong>Venue:</strong> Main Auditorium</p>
+                <p><strong>Participants:</strong> 500+</p>
+                <p><strong>Prize Pool:</strong> ₹50,000</p>
+
+                <br>
+
+                <a href="register.html">
+                    <button>Register</button>
+                </a>
+
+            </div>
+
+            <div class="card event-card">
+
+               
+
+                <h3>Hackathon 2026</h3>
+
+                <p><strong>Date:</strong> 25 July 2026</p>
+                <p><strong>Venue:</strong> Computer Lab</p>
+                <p><strong>Participants:</strong> 300+</p>
+                <p><strong>Prize Pool:</strong> ₹75,000</p>
+
+                <br>
+
+                <a href="register.html">
+                    <button>Register</button>
+                </a>
+
+            </div>
+
+            <div class="card event-card">
+
+                
+
+                <h3>Cultural Fest 2026</h3>
+
+                <p><strong>Date:</strong> 30 July 2026</p>
+                <p><strong>Venue:</strong> Open Ground</p>
+                <p><strong>Participants:</strong> 1000+</p>
+                <p><strong>Prize Pool:</strong> ₹30,000</p>
+
+                <br>
+
+                <a href="register.html">
+                    <button>Register</button>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>events@college.edu</p>
+        <p>+91 9876543210</p>
+        <p>Instagram: @collegeevents</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
